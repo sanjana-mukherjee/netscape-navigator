@@ -1,1 +1,40 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Melodrama";
+  src: url("/public/fonts/Melodrama-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Melodrama";
+  src: url("/public/fonts/Melodrama-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Melodrama";
+  src: url("/public/fonts/Melodrama-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Melodrama";
+  src: url("/public/fonts/Melodrama-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Melodrama";
+  src: url("/public/fonts/Melodrama-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@theme {
+  --font-melodrama: Melodrama, sans-serif;
+}

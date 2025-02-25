@@ -1,3 +1,5 @@
+import BirthOfNetscape from "./BirthOfNetscape";
+
 export default function Content() {
-  return <p>Hello</p>;
+  return <BirthOfNetscape />;
 }

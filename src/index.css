@@ -23,7 +23,7 @@
 
 @font-face {
   font-family: "Melodrama";
-  src: url("/public/fonts/Melodrama-SemiBold.otf") format("opentype");
+  src: url("/public/fonts/Melodrama-Semibold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
 }
@@ -65,7 +65,7 @@
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("/public/fonts/GeneralSans-SemiBold.otf") format("opentype");
+  src: url("/public/fonts/GeneralSans-Semibold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
 }

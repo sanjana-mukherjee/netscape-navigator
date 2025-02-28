@@ -7,7 +7,7 @@ export default function App() {
         Netscape to Firefox
       </h1>
       <div className="mt-24">
-        <Content />;
+        <Content />
       </div>
     </div>
   );

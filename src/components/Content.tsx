@@ -1,5 +1,5 @@
-import BirthOfNetscape from "./BirthOfNetscape";
-import TheRiseOfNetscape from "./TheRiseOfNetscape";
+import BirthOfNetscape from "./sections/BirthOfNetscape";
+import TheRiseOfNetscape from "./sections/TheRiseOfNetscape";
 
 export default function Content() {
   return (

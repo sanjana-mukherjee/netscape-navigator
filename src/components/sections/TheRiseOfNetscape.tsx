@@ -1,6 +1,6 @@
-import SubSection from "./SubSection";
-import Paragraph from "./Paragraph";
-import Section from "./Section";
+import SubSection from "../SubSection";
+import Paragraph from "../Paragraph";
+import Section from "../Section";
 
 export default function TheRiseOfNetscape() {
   return (

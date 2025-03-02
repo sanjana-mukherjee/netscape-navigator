@@ -1,6 +1,8 @@
 import SubSection from "../SubSection";
 import Paragraph from "../Paragraph";
 import Section from "../Section";
+import Quote from "../Quote";
+import Image from "../Image";
 
 export default function BirthOfNetscape() {
   return (
@@ -21,6 +23,10 @@ export default function BirthOfNetscape() {
           <strong>NeXT Inc.</strong>, a company founded by{" "}
           <strong>Steve Jobs</strong> in 1985.
         </Paragraph>
+        <Image
+          src="./assets/Nexus.png"
+          alt="Screen shot of the Nexus browser"
+        />
       </SubSection>
       <SubSection heading="The Rise of Mosaic">
         <Paragraph>
@@ -38,6 +44,13 @@ export default function BirthOfNetscape() {
           <strong>becoming the standard way to browse the internet</strong>, as
           noted by <strong>Wired magazine</strong>.
         </Paragraph>
+        <Quote author="Wired Magazine">
+          Mosaic is not the most direct way to find online information. Nor is
+          it the most powerful. It is merely the most pleasurable way, and in
+          the 18 months since it was released, Mosaic has incited a rush of
+          excitement and commercial energy unprecedented in the history of the
+          Net.
+        </Quote>
       </SubSection>
       <SubSection heading="Marc Andreessen and Jim Clark">
         <Paragraph>

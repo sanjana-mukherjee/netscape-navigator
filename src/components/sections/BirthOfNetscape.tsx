@@ -1,3 +1,4 @@
+import { Globe } from "lucide-react";
 import SubSection from "../SubSection";
 import Paragraph from "../Paragraph";
 import Section from "../Section";
@@ -6,7 +7,7 @@ import Image from "../Image";
 
 export default function BirthOfNetscape() {
   return (
-    <Section heading="The Birth of Netscape">
+    <Section heading="The Birth of Netscape" Icon={Globe}>
       <SubSection heading="The Early Days of the Web">
         <Paragraph>
           In 1989, Tim Berners-Lee and his colleagues at CERN created the{" "}

@@ -1,10 +1,11 @@
+import { Swords } from "lucide-react";
 import SubSection from "../SubSection";
 import Paragraph from "../Paragraph";
 import Section from "../Section";
 
 export default function TheBrowserWarsBegin() {
   return (
-    <Section heading="The Browser Wars Begin">
+    <Section heading="The Browser Wars Begin" Icon={Swords}>
       <SubSection heading="Netscape's Dominance">
         <Paragraph>
           By <strong>mid-1995</strong>, the <strong>World Wide Web</strong> had

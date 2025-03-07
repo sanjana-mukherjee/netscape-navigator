@@ -1,10 +1,11 @@
+import { Rocket } from "lucide-react";
 import SubSection from "../SubSection";
 import Paragraph from "../Paragraph";
 import Section from "../Section";
 
 export default function TheRiseOfNetscape() {
   return (
-    <Section heading="The Rise of Netscape">
+    <Section heading="The Rise of Netscape" Icon={Rocket}>
       <SubSection heading="The Internet Revolution">
         <Paragraph>
           By the mid-1990s, the internet was going mainstream. More people were

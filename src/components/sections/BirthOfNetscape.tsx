@@ -8,7 +8,35 @@ import Image from "../Image";
 export default function BirthOfNetscape() {
   return (
     <Section heading="The Birth of Netscape" Icon={Globe}>
-      <SubSection heading="The Early Days of the Web">
+      <SubSection
+        heading="The Early Days of the Web"
+        timeline={[
+          {
+            year: 1989,
+            description: (
+              <>
+                Tim Berners-Lee creates the <strong>World Wide Web</strong>.
+              </>
+            ),
+          },
+          {
+            year: 1990,
+            description: (
+              <>
+                Develops the first web browser,{" "}
+                <em>
+                  <strong>Nexus</strong>
+                </em>{" "}
+                (originally{" "}
+                <em>
+                  <strong>WorldWideWeb</strong>
+                </em>
+                ).
+              </>
+            ),
+          },
+        ]}
+      >
         <Paragraph>
           In 1989, Tim Berners-Lee and his colleagues at CERN created the{" "}
           <strong>World Wide Web</strong>. They developed <strong>HTTP</strong>,

@@ -8,7 +8,7 @@ export default function SubSection({
 
 export function SubSectionHeader({ children }: { children: React.ReactNode }) {
   return (
-    <div className="max-w-md relative before:absolute before:inset-y-0 before:left-4 before:right-0 before:border-l before:border-l-black/20">
+    <div className="max-w-md">
       <div className="sticky top-0">{children}</div>
     </div>
   );

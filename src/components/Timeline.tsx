@@ -21,7 +21,7 @@ const ClockIcons = [
 ];
 
 export function Timeline({ children }: { children: React.ReactNode }) {
-  return <dl className="py-7 space-y-7">{children}</dl>;
+  return <dl className="space-y-7">{children}</dl>;
 }
 
 export function TimelineItem({

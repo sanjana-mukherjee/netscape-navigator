@@ -28,7 +28,7 @@ export function SubSectionTimelineContainer({
   children: React.ReactNode;
 }) {
   return (
-    <div className="mt-4 ml-4">
+    <div className="mt-10 ml-4">
       <div>{children}</div>
     </div>
   );

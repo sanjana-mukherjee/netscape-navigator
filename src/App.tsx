@@ -6,7 +6,7 @@ export default function App() {
       <h1 className="text-center text-2xl font-light border-b border-b-black/20 uppercase">
         Netscape to Firefox
       </h1>
-      <div className="mt-24">
+      <div className="mt-40">
         <Content />
       </div>
     </div>

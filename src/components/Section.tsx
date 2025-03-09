@@ -14,14 +14,14 @@ export default function Section({
   return (
     <section>
       <div className="flex items-end space-x-4 justify-between">
-        <h2 className="text-9xl uppercase font-semibold font-melodrama max-w-3xl">
+        <h2 className="text-9xl uppercase font-semibold font-melodrama max-w-2xl">
           {heading}
         </h2>
         <div className="shrink-0 opacity-30">
           <Icon absoluteStrokeWidth={true} strokeWidth={1} size={160} />
         </div>
       </div>
-      <div className="mt-28 space-y-36 relative before:absolute before:inset-y-0 before:left-4 before:right-0 before:border-l before:border-l-black/20">
+      <div className="mt-30 pb-18 space-y-36 relative before:absolute before:inset-y-0 before:left-4 before:right-0 before:border-l before:border-l-black/20">
         {children}
       </div>
     </section>

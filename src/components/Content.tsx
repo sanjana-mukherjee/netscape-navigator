@@ -6,8 +6,8 @@ export default function Content() {
   return (
     <div className="space-y-56">
       <BirthOfNetscape />
-      {/* <TheRiseOfNetscape /> */}
-      {/* <TheBrowserWarsBegin /> */}
+      <TheRiseOfNetscape />
+      <TheBrowserWarsBegin />
     </div>
   );
 }

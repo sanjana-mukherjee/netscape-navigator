@@ -3,22 +3,12 @@ import {
   Clock3,
   Clock4,
   Clock5,
-  Clock6,
   Clock7,
   Clock8,
   Clock9,
 } from "lucide-react";
 
-const ClockIcons = [
-  Clock2,
-  Clock3,
-  Clock4,
-  Clock5,
-  Clock6,
-  Clock7,
-  Clock8,
-  Clock9,
-];
+const ClockIcons = [Clock2, Clock3, Clock4, Clock5, Clock7, Clock8, Clock9];
 
 export function Timeline({ children }: { children: React.ReactNode }) {
   return <dl className="space-y-7">{children}</dl>;

@@ -156,8 +156,8 @@ export default function BirthOfNetscape() {
             <Timeline>
               <TimelineItem year={1994}>
                 <p>
-                  Mosaic Communications rebrands as{" "}
-                  <strong>Netscape Communications</strong> and Mosaic Netscape
+                  Mosaic Communications becomes{" "}
+                  <strong>Netscape Communications</strong>, and Mosaic Netscape
                   is renamed <strong>Netscape Navigator</strong>.
                 </p>
               </TimelineItem>
@@ -183,6 +183,7 @@ export default function BirthOfNetscape() {
             src="./assets/Netscape_logo.png"
             alt="Netscape Logo"
             width={280}
+            colored={true}
           />
         </SubSectionContent>
       </SubSection>

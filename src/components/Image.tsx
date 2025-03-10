@@ -2,10 +2,12 @@ export default function Image({
   src,
   alt,
   width,
+  colored = false,
 }: {
   src: string;
   alt: string;
   width?: number;
+  colored?: boolean;
 }) {
   return (
     <div className="relative">
@@ -16,8 +18,8 @@ export default function Image({
         src={src}
         alt={alt}
         width={width}
-        className={`${
-          width ? "mx-auto px-16 p-2 mt-7" : "w-full mt-10 grayscale p-2"
+        className={`${width ? "mx-auto px-16 p-2 mt-7" : "w-full mt-10 p-2"} ${
+          colored ? "grayscale-25" : "grayscale-75"
         } pb-3 border border-black/20 rounded-sm`}
       />
     </div>

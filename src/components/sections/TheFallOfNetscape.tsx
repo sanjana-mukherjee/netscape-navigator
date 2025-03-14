@@ -3,10 +3,12 @@ import SubSection, {
   SubSectionContent,
   SubSectionHeader,
   SubSectionHeading,
+  SubSectionTimelineContainer,
 } from "../SubSection";
 import Paragraph from "../Paragraph";
 import Section from "../Section";
 import { List, ListItem } from "../List";
+import { Timeline, TimelineItem } from "../Timeline";
 
 export default function TheFallOfNetscape() {
   return (
@@ -16,6 +18,17 @@ export default function TheFallOfNetscape() {
           <SubSectionHeading>
             Netscape Communicator: A Risky Rebrand
           </SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={1996}>
+                <strong>Netscape 3.0</strong> launches with{" "}
+                <strong>Standard</strong> and <strong>Gold</strong> editions.
+              </TimelineItem>
+              <TimelineItem year={1997}>
+                <strong>Netscape Communicator</strong> replaces Gold Edition.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -42,6 +55,14 @@ export default function TheFallOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>A Struggling Browser</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={1997}>
+                <strong>Netscape Communicator</strong> struggles to keep up as
+                web pages grow more complex.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -82,6 +103,14 @@ export default function TheFallOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>Going Open Source</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={1998}>
+                Netscape open-sources its browser and shifts to the{" "}
+                <strong>Gecko</strong> engine.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -113,6 +142,17 @@ export default function TheFallOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>The AOL Takeover</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={1999}>
+                <strong>AOL</strong> acquires <strong>Netscape</strong>.
+              </TimelineItem>
+              <TimelineItem year={2000}>
+                <strong>Netscape 6</strong> launches but suffers from{" "}
+                <strong>stability and performance issues</strong>.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -137,6 +177,17 @@ export default function TheFallOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>The End of Netscape</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={2002}>
+                <strong>Mozilla 1.0</strong> released, paving the way for
+                Firefox.
+              </TimelineItem>
+              <TimelineItem year={2008}>
+                <strong>Netscape</strong> support <strong>ends</strong>.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>

@@ -1,4 +1,4 @@
-import { Rocket } from "lucide-react";
+import { ShipWheel } from "lucide-react";
 import SubSection, {
   SubSectionContent,
   SubSectionHeader,
@@ -12,7 +12,7 @@ import { Timeline, TimelineItem } from "../Timeline";
 
 export default function TheFallOfNetscape() {
   return (
-    <Section heading="The Fall of Netscape" Icon={Rocket}>
+    <Section heading="The Fall of Netscape" Icon={ShipWheel}>
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>
@@ -96,7 +96,7 @@ export default function TheFallOfNetscape() {
           <Paragraph>
             With each update, Internet Explorer{" "}
             <strong>gained market share</strong>, while Netscape{" "}
-            <strong>struggled to keep up</strong>.
+            <strong>fell further behind</strong>.
           </Paragraph>
         </SubSectionContent>
       </SubSection>

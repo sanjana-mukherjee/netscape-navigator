@@ -16,7 +16,7 @@ export function SubSectionHeader({ children }: { children: React.ReactNode }) {
 
 export function SubSectionHeading({ children }: { children: React.ReactNode }) {
   return (
-    <h3 className="bg-white z-10 text-5xl font-normal col-span-2 font-melodrama sticky top-0 -my-4 py-4">
+    <h3 className="text-pretty bg-white z-10 text-5xl font-normal col-span-2 font-melodrama sticky top-0 -my-4 py-4">
       {children}
     </h3>
   );

@@ -2,119 +2,119 @@
 
 @font-face {
   font-family: "Melodrama";
-  src: url("fonts/Melodrama-Light.otf") format("opentype");
+  src: url("/fonts/Melodrama-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Melodrama";
-  src: url("fonts/Melodrama-Regular.otf") format("opentype");
+  src: url("/fonts/Melodrama-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Melodrama";
-  src: url("fonts/Melodrama-Medium.otf") format("opentype");
+  src: url("/fonts/Melodrama-Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Melodrama";
-  src: url("fonts/Melodrama-Semibold.otf") format("opentype");
+  src: url("/fonts/Melodrama-Semibold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Melodrama";
-  src: url("fonts/Melodrama-Bold.otf") format("opentype");
+  src: url("/fonts/Melodrama-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-Extralight.otf") format("opentype");
+  src: url("/fonts/GeneralSans-Extralight.otf") format("opentype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-Light.otf") format("opentype");
+  src: url("/fonts/GeneralSans-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-Regular.otf") format("opentype");
+  src: url("/fonts/GeneralSans-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-Medium.otf") format("opentype");
+  src: url("/fonts/GeneralSans-Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-Semibold.otf") format("opentype");
+  src: url("/fonts/GeneralSans-Semibold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-Bold.otf") format("opentype");
+  src: url("/fonts/GeneralSans-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-ExtralightItalic.otf") format("opentype");
+  src: url("/fonts/GeneralSans-ExtralightItalic.otf") format("opentype");
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-LightItalic.otf") format("opentype");
+  src: url("/fonts/GeneralSans-LightItalic.otf") format("opentype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-RegularItalic.otf") format("opentype");
+  src: url("/fonts/GeneralSans-Italic.otf") format("opentype");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-MediumItalic.otf") format("opentype");
+  src: url("/fonts/GeneralSans-MediumItalic.otf") format("opentype");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-SemiboldItalic.otf") format("opentype");
+  src: url("/fonts/GeneralSans-SemiboldItalic.otf") format("opentype");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: "GeneralSans";
-  src: url("fonts/GeneralSans-BoldItalic.otf") format("opentype");
+  src: url("/fonts/GeneralSans-BoldItalic.otf") format("opentype");
   font-weight: 700;
   font-style: italic;
 }

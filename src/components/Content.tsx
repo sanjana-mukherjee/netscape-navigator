@@ -5,7 +5,7 @@ import TheRiseOfNetscape from "./sections/TheRiseOfNetscape";
 
 export default function Content() {
   return (
-    <div className="space-y-56">
+    <div className="space-y-60">
       <BirthOfNetscape />
       <TheRiseOfNetscape />
       <TheBrowserWarsBegin />

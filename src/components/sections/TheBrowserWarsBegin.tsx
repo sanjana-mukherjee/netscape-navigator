@@ -1,4 +1,3 @@
-import { Swords } from "lucide-react";
 import SubSection, {
   SubSectionContent,
   SubSectionHeader,
@@ -12,7 +11,7 @@ import Image from "../Image";
 
 export default function TheBrowserWarsBegin() {
   return (
-    <Section heading="The Browser Wars Begin" Icon={Swords}>
+    <Section heading="The Browser Wars Begin">
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>Netscape's Dominance</SubSectionHeading>

@@ -1,4 +1,3 @@
-import { Rocket } from "lucide-react";
 import SubSection, {
   SubSectionContent,
   SubSectionHeader,
@@ -13,7 +12,7 @@ import Quote from "../Quote";
 
 export default function TheRiseOfNetscape() {
   return (
-    <Section heading="The Rise of Netscape" Icon={Rocket}>
+    <Section heading="The Rise of Netscape">
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>The Internet Revolution</SubSectionHeading>

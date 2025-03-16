@@ -1,4 +1,3 @@
-import { Globe } from "lucide-react";
 import SubSection, {
   SubSectionContent,
   SubSectionHeader,
@@ -14,7 +13,7 @@ import FunFact from "../FunFact";
 
 export default function BirthOfNetscape() {
   return (
-    <Section heading="The Birth of Netscape" Icon={Globe}>
+    <Section heading="The Birth of Netscape">
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>The Early Days of the Web</SubSectionHeading>

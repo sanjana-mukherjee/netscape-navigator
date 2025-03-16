@@ -123,3 +123,8 @@
   --font-melodrama: Melodrama, sans-serif;
   --font-gsans: GeneralSans, sans-serif;
 }
+
+@utility bg-wave {
+  background-image: radial-gradient(#00000028 1.4px, transparent 1.4px);
+  background-size: 28px 28px;
+}

@@ -20,7 +20,7 @@ export default function Section({
           </div>
         </InteractiveBackground>
       </div>
-      <div className="mt-36 pb-18 space-y-36 relative before:absolute before:inset-y-0 before:left-4 before:right-0 before:-z-10 before:border-l before:border-l-black/20">
+      <div className="mt-36 pb-18 space-y-36 relative before:absolute before:inset-y-0 before:left-4 before:border-l before:border-l-black/20">
         {children}
       </div>
     </section>

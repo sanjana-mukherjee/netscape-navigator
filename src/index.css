@@ -124,7 +124,23 @@
   --font-gsans: GeneralSans, sans-serif;
 }
 
+@utility overlay {
+  --x: -50%;
+  --y: -50%;
+
+  mask-image: radial-gradient(
+    circle 80px at var(--x) var(--y),
+    transparent 30%,
+    black
+  );
+  -webkit-mask-image: radial-gradient(
+    circle 80px at var(--x) var(--y),
+    transparent 30%,
+    black
+  );
+}
+
 @utility bg-wave {
-  background-image: radial-gradient(#00000028 1.4px, transparent 1.4px);
+  background-image: radial-gradient(#000000 1.4px, transparent 1.4px);
   background-size: 28px 28px;
 }

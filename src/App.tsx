@@ -1,14 +1,13 @@
-import Container from "./components/Container";
 import Content from "./components/Content";
 
 export default function App() {
   return (
-    <main className="pt-2 font-gsans">
-      <Container>
-        <h1 className="text-center text-xl font-light border-b border-b-black/20 uppercase">
-          Netscape to Firefox
+    <main className="font-gsans">
+      <div className="pt-1 bg-linear-[var(--color-gray-100)_65%,transparent_65%] flex items-center justify-center">
+        <h1 className="whitespace-nowrap uppercase text-4xl font-melodrama font-medium">
+          Netscape to firefox
         </h1>
-      </Container>
+      </div>
       <div className="mt-48">
         <Content />
       </div>

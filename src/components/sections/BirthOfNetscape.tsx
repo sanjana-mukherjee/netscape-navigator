@@ -9,7 +9,6 @@ import Section from "../Section";
 import Quote from "../Quote";
 import Image from "../Image";
 import { Timeline, TimelineItem } from "../Timeline";
-import FunFact from "../FunFact";
 
 export default function BirthOfNetscape() {
   return (
@@ -124,28 +123,10 @@ export default function BirthOfNetscape() {
             <strong>Andreessen as a vice president</strong>. Their first product
             was a new web browser called <strong>Mosaic Netscape</strong>.
           </Paragraph>
-          <FunFact
-            heading="The Mozilla Mascot"
-            Image={
-              <img
+          <Image
                 src="./assets/Mozilla_boxing.png"
                 alt="Mozilla, the lizard-like mascot of Netscape"
-                width={120}
-              />
-            }
-          >
-            <Paragraph>
-              In it's early days, they introduced <strong>Mozilla</strong>, a
-              lizard-like mascot whose name combined <strong>Mosaic</strong> and{" "}
-              <strong>Godzilla</strong> to represent their goal of being the{" "}
-              <strong>Mosaic killer</strong> and overtaking NCSA Mosaic.
-            </Paragraph>
-            <Paragraph>
-              It was featured prominently on the website but was later dropped
-              in favor of a more professional image. The name, however, lived
-              on, gaining prominence with the open-source browser that followed.
-            </Paragraph>
-          </FunFact>
+          />
         </SubSectionContent>
       </SubSection>
       <SubSection>

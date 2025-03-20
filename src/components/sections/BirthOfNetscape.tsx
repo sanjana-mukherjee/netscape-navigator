@@ -124,8 +124,8 @@ export default function BirthOfNetscape() {
             was a new web browser called <strong>Mosaic Netscape</strong>.
           </Paragraph>
           <Image
-                src="./assets/Mozilla_boxing.png"
-                alt="Mozilla, the lizard-like mascot of Netscape"
+            src="./assets/Mozilla_boxing.png"
+            alt="Mozilla, the lizard-like mascot of Netscape"
           />
         </SubSectionContent>
       </SubSection>
@@ -159,12 +159,7 @@ export default function BirthOfNetscape() {
             Mosaic. It quickly became the <strong>leading web browser</strong>,
             setting the stage for the internet boom.
           </Paragraph>
-          <Image
-            src="./assets/Netscape_logo.png"
-            alt="Netscape Logo"
-            width={280}
-            colored={true}
-          />
+          <Image src="./assets/Netscape_logo.png" alt="Netscape Logo" />
         </SubSectionContent>
       </SubSection>
     </Section>

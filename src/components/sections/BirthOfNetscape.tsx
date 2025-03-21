@@ -159,7 +159,7 @@ export default function BirthOfNetscape() {
             Mosaic. It quickly became the <strong>leading web browser</strong>,
             setting the stage for the internet boom.
           </Paragraph>
-          <Image src="./assets/Netscape_logo.png" alt="Netscape Logo" />
+          <Image src="./assets/Netscape_logo.svg" alt="Netscape Logo" />
         </SubSectionContent>
       </SubSection>
     </Section>

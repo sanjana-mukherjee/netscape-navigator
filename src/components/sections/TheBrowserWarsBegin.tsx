@@ -35,10 +35,11 @@ export default function TheBrowserWarsBegin() {
           </Paragraph>
           <Paragraph>
             While individuals could use it for <strong>free</strong>, it was
-            also available for academic and non-profit use at no cost. For
-            commercial users, Netscape Communications priced it at{" "}
-            <strong>$39</strong> per user, which included a 90-day warranty and
-            customer support.
+            also available for <strong>academic</strong> and{" "}
+            <strong>non-profit</strong> use at <strong>no cost</strong>. For{" "}
+            <strong>commercial users</strong>, Netscape Communications priced it
+            at <strong>$39</strong> per user, which included a 90-day warranty
+            and customer support.
           </Paragraph>
         </SubSectionContent>
       </SubSection>
@@ -57,14 +58,14 @@ export default function TheBrowserWarsBegin() {
         <SubSectionContent>
           <Paragraph>
             Seeing the web’s potential, <strong>Microsoft</strong> entered the
-            browser market by <strong>licensing Mosaic’s source code</strong>{" "}
-            from <strong>Spyglass, Inc.</strong>, the same foundation Netscape
-            had built upon, to create its own browser.
+            browser market by licensing Mosaic’s source code from{" "}
+            <strong>Spyglass, Inc.</strong>, the same foundation Netscape had
+            built upon, to create its own browser.
           </Paragraph>
           <Paragraph>
             On <strong>August 24, 1995</strong>, Microsoft released{" "}
             <strong>Internet Explorer 1.0</strong> as part of{" "}
-            <strong>Windows 95 Plus!</strong>. With{" "}
+            <strong>Windows 95 Plus</strong>. With{" "}
             <strong>Windows running on over 95% of desktop computers</strong>,
             bundling Internet Explorer with every copy ensured millions of users
             had instant access to Microsoft's browser.
@@ -145,11 +146,11 @@ export default function TheBrowserWarsBegin() {
           <Paragraph>
             Unlike Netscape, which relied on businesses purchasing{" "}
             <strong>Navigator licenses</strong> for revenue, Microsoft could
-            afford to offer Internet Explorer for free. With steady income from
-            Windows sales, Microsoft had the financial flexibility to improve
-            its browser without worrying about direct revenue. This pricing
-            difference made it even harder for Netscape to compete in the long
-            run.
+            afford to offer Internet Explorer for <strong>free</strong>. With
+            steady income from Windows sales, Microsoft had the financial
+            flexibility to improve its browser without worrying about direct
+            revenue. This pricing difference made it even harder for Netscape to
+            compete in the long run.
           </Paragraph>
         </SubSectionContent>
       </SubSection>

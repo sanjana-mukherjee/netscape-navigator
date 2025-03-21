@@ -84,7 +84,7 @@ export default function TheRiseOfNetscape() {
       </SubSection>
       <SubSection>
         <SubSectionHeader>
-          <SubSectionHeading>New Features, New Challenges</SubSectionHeading>
+          <SubSectionHeading>Innovating the Web</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
               <TimelineItem year={1995}>

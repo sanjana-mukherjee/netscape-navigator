@@ -24,7 +24,8 @@ export default function TheFallOfNetscape() {
                 <strong>Standard</strong> and <strong>Gold</strong> editions.
               </TimelineItem>
               <TimelineItem year={1997}>
-                <strong>Netscape Communicator</strong> replaces Gold Edition.
+                <strong>Netscape 4.0</strong> renames{" "}
+                <strong>Gold Edition</strong> to <strong>Communicator</strong>.
               </TimelineItem>
             </Timeline>
           </SubSectionTimelineContainer>
@@ -44,7 +45,10 @@ export default function TheFallOfNetscape() {
             renamed <strong>Netscape Communicator</strong>, combining all its
             additional tools into a single package. However, the rebranding{" "}
             <strong>confused users</strong>, and the software became
-            increasingly bloated. As web demands grew,{" "}
+            increasingly bloated.{" "}
+          </Paragraph>
+          <Paragraph>
+            As web demands grew,{" "}
             <strong>Microsoft Internet Explorer 5.0</strong> emerged as the{" "}
             <strong>faster, more stable, and more compatible</strong> option.
             Netscape, once the leader, was now <strong>falling behind</strong>.
@@ -157,11 +161,9 @@ export default function TheFallOfNetscape() {
           <Paragraph>
             As Netscape struggled,{" "}
             <strong>America Online (AOL) acquired the company</strong> in 1999.
-            At the time, Netscape was working on version <strong>5.0</strong>,
-            which was meant to be based on Mozilla’s new open-source foundation.
-            However, the project faced numerous challenges, leading to its{" "}
-            <strong>complete cancellation</strong> in favor of building a
-            brand-new browser from the ground up.
+            At the time, Netscape was working on <strong>version 5.0</strong>,
+            but the project was <strong>ultimately abandoned</strong> in favor
+            of building a new browser from the ground up.
           </Paragraph>
           <Paragraph>
             Netscape developers adapted an{" "}

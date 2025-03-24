@@ -2,9 +2,11 @@ import SubSection, {
   SubSectionContent,
   SubSectionHeader,
   SubSectionHeading,
+  SubSectionTimelineContainer,
 } from "../SubSection";
 import Paragraph from "../Paragraph";
 import Section from "../Section";
+import { Timeline, TimelineItem } from "../Timeline";
 
 export default function TheRebirthOfNetscape() {
   return (
@@ -12,6 +14,14 @@ export default function TheRebirthOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>Mozilla Rises from Netscape</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={2002}>
+                Mozilla debuts <strong>Mozilla 1.0</strong>, a cross-platform
+                browser.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -35,6 +45,14 @@ export default function TheRebirthOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>A Fresh Start with Firefox</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={2004}>
+                Mozilla launches <strong>Firefox 1.0</strong> as a standalone
+                browser.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -64,6 +82,18 @@ export default function TheRebirthOfNetscape() {
           <SubSectionHeading>
             Firefox Releases and Market Position
           </SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={2009}>
+                <strong>Firefox 3.5</strong> surpasses{" "}
+                <strong>Internet Explorer 7</strong> in market share.
+              </TimelineItem>
+              <TimelineItem year={2025}>
+                Firefox holds <strong>6.36% share</strong>, ranking fourth
+                globally.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>

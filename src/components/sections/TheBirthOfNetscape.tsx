@@ -10,7 +10,7 @@ import Quote from "../Quote";
 import Image from "../Image";
 import { Timeline, TimelineItem } from "../Timeline";
 
-export default function BirthOfNetscape() {
+export default function TheBirthOfNetscape() {
   return (
     <Section heading="The Birth of Netscape">
       <SubSection>

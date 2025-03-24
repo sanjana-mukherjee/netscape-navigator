@@ -180,10 +180,6 @@ export default function TheFallOfNetscape() {
           <SubSectionHeading>The End of Netscape</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
-              <TimelineItem year={2002}>
-                <strong>Mozilla 1.0</strong> released, paving the way for
-                Firefox.
-              </TimelineItem>
               <TimelineItem year={2008}>
                 <strong>Netscape</strong> support <strong>ends</strong>.
               </TimelineItem>
@@ -192,22 +188,20 @@ export default function TheFallOfNetscape() {
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
-            In <strong>2002</strong>, after years of delays,{" "}
-            <strong>Mozilla 1.0</strong> was finally released, powered by the{" "}
-            <strong>Gecko engine</strong>. This new foundation later gave rise
-            to <strong>Firefox</strong>, but by then, Netscape had already lost
-            its footing in the market.
+            Despite releasing <strong>Netscape 7</strong> in 2002, the browser
+            failed to gain traction as Mozilla itself became a strong
+            competitor. Netscape later launched{" "}
+            <strong>Netscape Browser 8</strong> in 2005, built on Mozilla
+            Firefox, but it struggled to attract users. By 2007, Netscape's
+            market share had dwindled to near insignificance.
           </Paragraph>
           <Paragraph>
-            Despite releasing <strong>Netscape 7</strong>, the brand never
-            regained its former prominence. Internet Explorer now controlled the
-            web, and Netscape faded into history. By{" "}
-            <strong>December 28, 2007</strong>, AOL officially{" "}
-            <strong>canceled development of Netscape Navigator</strong>, marking
-            the end of an era. The last version became unsupported as of{" "}
-            <strong>March 1, 2008</strong>. While archived versions remained
-            available for download, Netscape had officially become a relic of
-            the past.
+            In a final attempt, <strong>Netscape Navigator 9</strong> was
+            released in October 2007, based on Firefox 2.0. But the effort was
+            short-lived. On <strong>December 28, 2007</strong>, AOL announced it
+            would discontinue Netscape's browser due to low market share.
+            Support officially ended on <strong>March 1, 2008</strong>, closing
+            the chapter on a once-revolutionary browser.
           </Paragraph>
         </SubSectionContent>
       </SubSection>

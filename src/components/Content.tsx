@@ -1,7 +1,7 @@
 import TheBirthOfNetscape from "./sections/TheBirthOfNetscape";
 import TheBrowserWarsBegin from "./sections/TheBrowserWarsBegin";
 import TheFallOfNetscape from "./sections/TheFallOfNetscape";
-import TheRebirthOfNetscape from "./sections/TheRebirthOfNetscape";
+import TheRebirthAsFirefox from "./sections/TheRebirthAsFirefox";
 import TheRiseOfNetscape from "./sections/TheRiseOfNetscape";
 
 export default function Content() {
@@ -11,7 +11,7 @@ export default function Content() {
       <TheRiseOfNetscape />
       <TheBrowserWarsBegin />
       <TheFallOfNetscape />
-      <TheRebirthOfNetscape />
+      <TheRebirthAsFirefox />
     </div>
   );
 }

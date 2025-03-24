@@ -8,9 +8,9 @@ import Paragraph from "../Paragraph";
 import Section from "../Section";
 import { Timeline, TimelineItem } from "../Timeline";
 
-export default function TheRebirthOfNetscape() {
+export default function TheRebirthAsFirefox() {
   return (
-    <Section heading="The Rebirth of Netscape">
+    <Section heading="The Rebirth as Firefox">
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>Mozilla Rises from Netscape</SubSectionHeading>

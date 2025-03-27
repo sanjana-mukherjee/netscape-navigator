@@ -2,9 +2,11 @@ import SubSection, {
   SubSectionContent,
   SubSectionHeader,
   SubSectionHeading,
+  SubSectionTimelineContainer,
 } from "../SubSection";
 import Paragraph from "../Paragraph";
 import Section from "../Section";
+import { Timeline, TimelineItem } from "../Timeline";
 
 export default function TheLegacyOfNetscape() {
   return (
@@ -12,6 +14,13 @@ export default function TheLegacyOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>JavaScript</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={1995}>
+                JavaScript created by Brendan Eich at Netscape.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -27,6 +36,13 @@ export default function TheLegacyOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>HTTP Cookies</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={1994}>
+                HTTP cookies invented by Lou Montulli.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -43,6 +59,13 @@ export default function TheLegacyOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>Frameset and Early Web Layouts</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={1996}>
+                Netscape popularized framesets for web layouts.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -58,6 +81,13 @@ export default function TheLegacyOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>Rust</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={2006}>
+                Graydon Hoare began Rust development at Mozilla.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -74,6 +104,13 @@ export default function TheLegacyOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>MDN Web Docs</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={2005}>
+                Mozilla launched MDN Web Docs.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
@@ -91,6 +128,13 @@ export default function TheLegacyOfNetscape() {
       <SubSection>
         <SubSectionHeader>
           <SubSectionHeading>WHATWG and Web Standards</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={2004}>
+                WHATWG formed by Mozilla and Opera.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>

@@ -13,28 +13,6 @@ export default function TheLegacyOfNetscape() {
     <Section heading="The Legacy of Netscape">
       <SubSection>
         <SubSectionHeader>
-          <SubSectionHeading>JavaScript</SubSectionHeading>
-          <SubSectionTimelineContainer>
-            <Timeline>
-              <TimelineItem year={1995}>
-                JavaScript created by Brendan Eich at Netscape.
-              </TimelineItem>
-            </Timeline>
-          </SubSectionTimelineContainer>
-        </SubSectionHeader>
-        <SubSectionContent>
-          <Paragraph>
-            An early Netscape employee, <strong>Brendan Eich</strong>, created
-            the <strong>JavaScript programming language</strong>, which became
-            the most widely used language for <strong>client-side</strong>{" "}
-            scripting of web pages. Initially developed in just ten days,
-            JavaScript was introduced in Netscape Navigator 2.0 and later became
-            a standard, shaping the modern web.
-          </Paragraph>
-        </SubSectionContent>
-      </SubSection>
-      <SubSection>
-        <SubSectionHeader>
           <SubSectionHeading>HTTP Cookies</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
@@ -53,6 +31,28 @@ export default function TheLegacyOfNetscape() {
             became essential for user authentication, shopping carts, and
             personalized web experiences, and is still a fundamental part of web
             browsing today.
+          </Paragraph>
+        </SubSectionContent>
+      </SubSection>
+      <SubSection>
+        <SubSectionHeader>
+          <SubSectionHeading>JavaScript</SubSectionHeading>
+          <SubSectionTimelineContainer>
+            <Timeline>
+              <TimelineItem year={1995}>
+                JavaScript created by Brendan Eich at Netscape.
+              </TimelineItem>
+            </Timeline>
+          </SubSectionTimelineContainer>
+        </SubSectionHeader>
+        <SubSectionContent>
+          <Paragraph>
+            An early Netscape employee, <strong>Brendan Eich</strong>, created
+            the <strong>JavaScript programming language</strong>, which became
+            the most widely used language for <strong>client-side</strong>{" "}
+            scripting of web pages. Initially developed in just ten days,
+            JavaScript was introduced in Netscape Navigator 2.0 and later became
+            a standard, shaping the modern web.
           </Paragraph>
         </SubSectionContent>
       </SubSection>
@@ -80,24 +80,28 @@ export default function TheLegacyOfNetscape() {
       </SubSection>
       <SubSection>
         <SubSectionHeader>
-          <SubSectionHeading>Rust</SubSectionHeading>
+          <SubSectionHeading>WHATWG and Web Standards</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
-              <TimelineItem year={2006}>
-                Graydon Hoare began Rust development at Mozilla.
+              <TimelineItem year={2004}>
+                WHATWG formed by Mozilla and Opera.
               </TimelineItem>
             </Timeline>
           </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
-            Rust is a versatile <strong>programming language</strong> designed
-            for high performance, type safety, and concurrency.{" "}
-            <strong>Graydon Hoare</strong> began developing it as a personal
-            project at <strong>Mozilla Research</strong> in{" "}
-            <strong>2006</strong>, and Mozilla officially backed it in 2009.
-            Since its stable release in 2015, Rust has been widely adopted by
-            major tech companies.
+            The{" "}
+            <strong>
+              Web Hypertext Application Technology Working Group (WHATWG)
+            </strong>{" "}
+            is a<strong>community</strong> dedicated to evolving HTML and
+            related technologies. Formed in
+            <strong>April 2004</strong> through a collaboration between the{" "}
+            <strong>Mozilla Foundation</strong>
+            and <strong>Opera Software</strong>, it aimed to develop
+            open-technology standards that improved functionality while
+            maintaining backward compatibility.
           </Paragraph>
         </SubSectionContent>
       </SubSection>
@@ -127,28 +131,24 @@ export default function TheLegacyOfNetscape() {
       </SubSection>
       <SubSection>
         <SubSectionHeader>
-          <SubSectionHeading>WHATWG and Web Standards</SubSectionHeading>
+          <SubSectionHeading>Rust</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
-              <TimelineItem year={2004}>
-                WHATWG formed by Mozilla and Opera.
+              <TimelineItem year={2006}>
+                Graydon Hoare began Rust development at Mozilla.
               </TimelineItem>
             </Timeline>
           </SubSectionTimelineContainer>
         </SubSectionHeader>
         <SubSectionContent>
           <Paragraph>
-            The{" "}
-            <strong>
-              Web Hypertext Application Technology Working Group (WHATWG)
-            </strong>{" "}
-            is a<strong>community</strong> dedicated to evolving HTML and
-            related technologies. Formed in
-            <strong>April 2004</strong> through a collaboration between the{" "}
-            <strong>Mozilla Foundation</strong>
-            and <strong>Opera Software</strong>, it aimed to develop
-            open-technology standards that improved functionality while
-            maintaining backward compatibility.
+            Rust is a versatile <strong>programming language</strong> designed
+            for high performance, type safety, and concurrency.{" "}
+            <strong>Graydon Hoare</strong> began developing it as a personal
+            project at <strong>Mozilla Research</strong> in{" "}
+            <strong>2006</strong>, and Mozilla officially backed it in 2009.
+            Since its stable release in 2015, Rust has been widely adopted by
+            major tech companies.
           </Paragraph>
         </SubSectionContent>
       </SubSection>

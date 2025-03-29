@@ -8,7 +8,6 @@ import Paragraph from "../Paragraph";
 import Section from "../Section";
 import { Timeline, TimelineItem } from "../Timeline";
 import Image from "../Image";
-import Quote from "../Quote";
 
 export default function TheRiseOfNetscape() {
   return (
@@ -73,13 +72,6 @@ export default function TheRiseOfNetscape() {
             displayed text almost immediately while images continued to load in
             the background. This made browsing much faster and more seamless.
           </Paragraph>
-          <Quote author="Marc Andreessen">
-            The availability of Netscape Navigator will contribute to the
-            continued dramatic growth in Internet usage by making the net a
-            powerful channel for conducting commerce. With this first secure
-            open software system capable of handling sensitive information and
-            commercial transactions, the Internet is now open for business.
-          </Quote>
         </SubSectionContent>
       </SubSection>
       <SubSection>

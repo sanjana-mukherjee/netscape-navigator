@@ -71,7 +71,7 @@ export default function TheLegacyOfNetscape() {
           <Paragraph>
             <strong>Netscape</strong> popularized the use of{" "}
             <strong>framesets</strong>
-            in web design, allowing developers to divide a webpage into
+            in web design, allowing developers to divide a webpage into{" "}
             <strong>multiple scrollable sections</strong>. While framesets have
             largely been replaced by modern CSS-based layouts, they were a
             defining feature of early web development.
@@ -95,10 +95,9 @@ export default function TheLegacyOfNetscape() {
             <strong>
               Web Hypertext Application Technology Working Group (WHATWG)
             </strong>{" "}
-            is a<strong>community</strong> dedicated to evolving HTML and
-            related technologies. Formed in
-            <strong>April 2004</strong> through a collaboration between the{" "}
-            <strong>Mozilla Foundation</strong>
+            is a <strong>community</strong> dedicated to evolving HTML and
+            related technologies. Formed in <strong>April 2004</strong> through
+            a collaboration between the <strong>Mozilla Foundation</strong>
             and <strong>Opera Software</strong>, it aimed to develop
             open-technology standards that improved functionality while
             maintaining backward compatibility.
@@ -119,13 +118,13 @@ export default function TheLegacyOfNetscape() {
         <SubSectionContent>
           <Paragraph>
             MDN Web Docs, formerly known as{" "}
-            <strong>Mozilla Developer Network</strong> and
+            <strong>Mozilla Developer Network</strong> and{" "}
             <strong>Mozilla Developer Center</strong>, is a comprehensive{" "}
             <strong>documentation repository</strong>
             and <strong>learning platform</strong> for web developers.
-            Established by <strong>Mozilla</strong> in
-            <strong>2005</strong>, it provides resources on open web standards,
-            including HTML, CSS, JavaScript, and SVG.
+            Established by <strong>Mozilla</strong> in <strong>2005</strong>, it
+            provides resources on open web standards, including HTML, CSS,
+            JavaScript, and SVG.
           </Paragraph>
         </SubSectionContent>
       </SubSection>

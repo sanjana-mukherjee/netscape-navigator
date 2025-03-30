@@ -7,6 +7,7 @@ import SubSection, {
 import Paragraph from "../Paragraph";
 import Section from "../Section";
 import { Timeline, TimelineItem } from "../Timeline";
+import Image from "../Image";
 
 export default function TheRebirthAsFirefox() {
   return (
@@ -121,6 +122,10 @@ export default function TheRebirthAsFirefox() {
             <strong>fourth-most popular</strong> desktop browser after{" "}
             <strong>Chrome, Edge, and Safari</strong>.
           </Paragraph>
+          <Image
+            src="./assets/Firefox_1.png"
+            alt="Screenshor of the Firefox 1.0 browser"
+          />
         </SubSectionContent>
       </SubSection>
     </Section>

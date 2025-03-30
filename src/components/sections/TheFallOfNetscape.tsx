@@ -8,6 +8,7 @@ import Paragraph from "../Paragraph";
 import Section from "../Section";
 import { List, ListItem } from "../List";
 import { Timeline, TimelineItem } from "../Timeline";
+import Image from "../Image";
 
 export default function TheFallOfNetscape() {
   return (
@@ -140,6 +141,10 @@ export default function TheFallOfNetscape() {
             later rebranded it as <strong>Gecko</strong>, and over time, the
             name stuck.
           </Paragraph>
+          <Image
+            src="./assets/Mozilla_boxing.png"
+            alt="The lizard-like mascot of Netscape named Mozilla"
+          />
         </SubSectionContent>
       </SubSection>
       <SubSection>
@@ -173,6 +178,10 @@ export default function TheFallOfNetscape() {
             users encountered <strong>stability and performance issues</strong>,
             making it difficult to compete with Internet Explorer.
           </Paragraph>
+          <Image
+            src="./assets/America_Online_logo.png"
+            alt="AOL logo used from 1991 to 2005"
+          />
         </SubSectionContent>
       </SubSection>
       <SubSection>

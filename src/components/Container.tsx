@@ -8,8 +8,8 @@ export default function Container({
   return (
     <div
       className={`${
-        variant === "normal" ? "px-16" : "max-w-[110rem]"
-      } mx-auto max-w-[95rem]`}
+        variant === "normal" ? "px-5 sm:px-10 md:px-16" : "md:max-w-[110rem]"
+      } mx-auto md:max-w-[95rem]`}
     >
       {children}
     </div>

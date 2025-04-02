@@ -43,24 +43,24 @@ function PopupImage({
       <InteractiveBackground>
         <div className="h-full flex items-center justify-center">
           <div
-            className="max-w-4xl bg-gray-50/80 py-5 px-35 flex flex-col items-center justify-center gap-10 relative"
+            className="w-11/12 max-w-4xl bg-gray-50/80 py-5 px-5 sm:px-10 md:px-25 lg:px-35 flex flex-col items-center justify-center gap-2 md:gap-10 relative"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal
           >
-            <img src={src} alt={alt} />
-            <p
-              id="popup-image-title"
-              className="font-melodrama font-normal text-3xl uppercase text-center"
-            >
-              {alt}
-            </p>
             <button
               ref={closeButtonRef}
-              className="absolute top-0 right-0 p-3 text-gray-800 hover:cursor-pointer hover:bg-gray-200 border-gray-300 focus:border-2 focus:outline-0"
+              className="md:absolute md:top-0 md:right-0 p-3 text-gray-800 hover:cursor-pointer hover:bg-gray-200 focus-border-gray-300 border-transparent border-2 focus:outline-0"
               onClick={onClose} // Close modal on X button click
               aria-label="Close"
             >
               <X size={24} strokeWidth={1} absoluteStrokeWidth={true} />
             </button>
+            <img src={src} alt={alt} />
+            <p
+              id="popup-image-title"
+              className="font-melodrama font-normal text-xl md:text-3xl uppercase text-center"
+            >
+              {alt}
+            </p>
           </div>
         </div>
       </InteractiveBackground>
@@ -73,12 +73,15 @@ export default function Image({ src, alt }: { src: string; alt: string }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <div className="text-right">
+    <div className="text-right relative pt-2">
       <button
-        className="bg-gray-50 size-28 opacity-65 hover:cursor-pointer hover:opacity-85 focus:outline-2 outline-gray-500 outline-offset-4"
+        className="bg-gray-50 relative h-28 w-full opacity-65 sm:size-28 hover:cursor-pointer hover:opacity-95 focus:outline-2 outline-gray-500 outline-offset-4 border border-gray-300"
         onClick={() => setIsModalOpen(true)}
         aria-label={`Open image modal for ${alt}`}
       >
+        <p className="text-xs z-10 absolute bottom-0 right-0 sm:left-0 py-1 px-4 bg-white border-t border-l sm:border-l-0 border-gray-300">
+          Click to view
+        </p>
         <img
           src={src}
           alt={alt}

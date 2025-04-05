@@ -4,7 +4,7 @@ export default function SubSection({
   children: React.ReactNode;
 }) {
   return (
-    <div className="grid justify-between gap-5 lg:gap-20 lg:grid-cols-[minmax(var(--container-2xs),var(--container-sm))_minmax(50%,80ch)]">
+    <div className="grid justify-between gap-5 lg:grid-cols-[minmax(var(--container-2xs),var(--container-sm))_minmax(50%,80ch)] lg:gap-20">
       {children}
     </div>
   );
@@ -20,7 +20,7 @@ export function SubSectionHeader({ children }: { children: React.ReactNode }) {
 
 export function SubSectionHeading({ children }: { children: React.ReactNode }) {
   return (
-    <h3 className="text-pretty bg-white z-10 text-3xl sm:text-4xl md:text-5xl font-normal font-melodrama sticky top-0 -mx-2 px-2 -my-4 py-4">
+    <h3 className="font-melodrama sticky top-0 z-10 -mx-2 -my-4 bg-white px-2 py-4 text-3xl font-normal text-pretty sm:text-4xl md:text-5xl">
       {children}
     </h3>
   );
@@ -32,7 +32,7 @@ export function SubSectionTimelineContainer({
   children: React.ReactNode;
 }) {
   return (
-    <div className="mt-5 lg:mt-10 pl-10 py-4 lg:p-0 lg:ml-4">
+    <div className="mt-5 py-4 pl-10 lg:mt-10 lg:ml-4 lg:p-0">
       <div>{children}</div>
     </div>
   );
@@ -40,7 +40,7 @@ export function SubSectionTimelineContainer({
 
 export function SubSectionContent({ children }: { children: React.ReactNode }) {
   return (
-    <div className="text-justify space-y-3 lg:space-y-5 font-satoshi text-base sm:text-lg lg:text-xl font-light ml-2 sm:ml-5 lg:ml-0 bg-white">
+    <div className="font-satoshi ml-2 space-y-3 bg-white text-justify text-base font-light sm:ml-5 sm:text-lg lg:ml-0 lg:space-y-5 lg:text-xl">
       {children}
     </div>
   );

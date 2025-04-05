@@ -21,7 +21,7 @@ export default function InteractiveBackground({
     <div className="bg-wave relative h-full" onMouseMove={handleMouseMove}>
       <div
         ref={overlayRef}
-        className="absolute inset-0 overlay bg-white/85"
+        className="overlay absolute inset-0 bg-white/85"
       ></div>
       <div className="relative z-10 h-full">{children}</div>
     </div>

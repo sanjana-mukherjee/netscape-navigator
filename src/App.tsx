@@ -8,7 +8,7 @@ export default function App() {
       <Container variant="large">
         <div className="bg-white pt-px">
           <Introduction />
-          <div className="mt-10 sm:mt-28 md:mt-48">
+          <div className="mt-18 sm:mt-28 md:mt-48">
             <Content />
           </div>
         </div>

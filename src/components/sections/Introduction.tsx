@@ -10,7 +10,7 @@ export default function Introduction() {
         <div className="bg-white py-4 md:bg-transparent md:py-0">
           <Container>
             <div className="-mx-3 grid justify-between gap-8 bg-white px-3 sm:gap-10 md:grid-cols-[min-content_--spacing(52)] xl:grid-cols-[min-content_1fr_--spacing(52)] xl:gap-20">
-              <h1 className="font-melodrama text-lg font-medium uppercase sm:text-2xl">
+              <h1 className="font-melodrama text-gradient text-lg font-semibold uppercase sm:text-2xl">
                 <div>Where</div>
                 <div>
                   <span className="text-5xl leading-8 sm:text-6xl sm:leading-11">

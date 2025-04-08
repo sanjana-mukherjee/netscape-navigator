@@ -144,3 +144,11 @@
   background-image: radial-gradient(#000000 1.4px, transparent 1.4px);
   background-size: 28px 28px;
 }
+
+@utility text-gradient {
+  @apply bg-radial from-black/65 to-black bg-clip-text text-transparent;
+}
+
+strong {
+  @apply bg-gray-50 font-semibold;
+}

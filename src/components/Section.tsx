@@ -15,9 +15,7 @@ export default function Section({
           <Container>
             <div className="py-10 md:py-15">
               <h2 className="font-melodrama max-w-sm bg-radial from-white/70 via-white/50 to-transparent text-6xl font-semibold text-pretty uppercase sm:max-w-xl sm:text-8xl md:max-w-3xl md:text-9xl">
-                <div className="bg-radial from-black/65 to-black bg-clip-text text-transparent">
-                  {heading}
-                </div>
+                <div className="text-gradient">{heading}</div>
               </h2>
             </div>
           </Container>

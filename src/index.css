@@ -146,9 +146,9 @@
 }
 
 @utility text-gradient {
-  @apply bg-radial from-black/65 to-black bg-clip-text text-transparent;
+  @apply bg-radial from-sky-900 to-black bg-clip-text text-transparent;
 }
 
 strong {
-  @apply bg-gray-50 font-semibold;
+  @apply bg-sky-50/70 font-semibold;
 }

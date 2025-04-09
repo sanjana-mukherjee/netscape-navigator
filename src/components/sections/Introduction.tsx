@@ -52,7 +52,7 @@ export default function Introduction() {
                 </div>
                 <a
                   href="#"
-                  className="font-melodrama flex items-center justify-between gap-1 border border-gray-100 bg-gray-50 p-2 text-xl leading-6 uppercase sm:text-2xl md:text-3xl"
+                  className="font-melodrama flex items-center justify-between gap-1 border border-sky-100 bg-sky-50/70 p-2 text-xl leading-6 uppercase sm:text-2xl md:text-3xl"
                 >
                   <div>Watch on Youtube</div>
                   <SquareArrowOutUpRight
@@ -71,16 +71,16 @@ export default function Introduction() {
               </div>
               <div className="flex flex-col-reverse gap-6 md:col-span-2 md:flex-col xl:col-span-1 xl:col-start-2 xl:row-start-1">
                 <ul className="font-melodrama text-md flex flex-wrap gap-2 sm:gap-3 sm:text-xl">
-                  <li className="border border-gray-100 bg-gray-50 px-4">
+                  <li className="border border-sky-100 bg-sky-50/70 px-4">
                     Netscape
                   </li>
-                  <li className="border border-gray-100 bg-gray-50 px-4">
+                  <li className="border border-sky-100 bg-sky-50/70 px-4">
                     Firefox
                   </li>
-                  <li className="border border-gray-100 bg-gray-50 px-4">
+                  <li className="border border-sky-100 bg-sky-50/70 px-4">
                     Web History
                   </li>
-                  <li className="border border-gray-100 bg-gray-50 px-4">
+                  <li className="border border-sky-100 bg-sky-50/70 px-4">
                     Browser War I
                   </li>
                 </ul>

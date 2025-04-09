@@ -75,18 +75,18 @@ export default function Image({ src, alt }: { src: string; alt: string }) {
   return (
     <div className="relative pt-2 text-right">
       <button
-        className="relative h-28 w-full border border-gray-300 bg-gray-50 opacity-65 outline-offset-4 outline-gray-500 hover:cursor-pointer hover:opacity-95 focus:outline-2 sm:size-28"
+        className="w-full border border-gray-300 p-1 opacity-65 outline-offset-4 outline-gray-500 hover:cursor-pointer hover:opacity-95 focus:outline-2 sm:w-auto"
         onClick={() => setIsModalOpen(true)}
         aria-label={`Open image modal for ${alt}`}
       >
-        <p className="absolute right-0 bottom-0 z-10 border-t border-l border-gray-300 bg-white px-4 py-1 text-xs sm:left-0 sm:border-l-0">
-          Click to view
-        </p>
         <img
           src={src}
           alt={alt}
-          className="h-full w-full object-cover object-left-top text-sm grayscale"
+          className="h-28 w-full object-cover object-left-top text-sm grayscale sm:size-28"
         />
+        <p className="-mx-1 mt-2 -mb-1 border-t border-gray-300 bg-gray-50 py-1 text-xs uppercase">
+          Click to view
+        </p>
       </button>
       {isModalOpen && (
         <PopupImage src={src} alt={alt} onClose={() => setIsModalOpen(false)} />

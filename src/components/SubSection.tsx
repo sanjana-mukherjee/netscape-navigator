@@ -40,7 +40,7 @@ export function SubSectionTimelineContainer({
 
 export function SubSectionContent({ children }: { children: React.ReactNode }) {
   return (
-    <div className="font-satoshi ml-2 space-y-3 bg-white text-justify text-base text-gray-700 sm:ml-5 sm:text-lg lg:ml-0 lg:space-y-5 lg:text-xl">
+    <div className="font-satoshi ml-4 space-y-3 bg-white text-justify text-base text-gray-700 sm:ml-5 sm:text-lg lg:ml-0 lg:space-y-5 lg:text-xl">
       {children}
     </div>
   );

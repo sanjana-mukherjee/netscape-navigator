@@ -22,7 +22,7 @@ export default function Section({
         </InteractiveBackground>
       </Container>
       <Container>
-        <div className="relative mt-10 space-y-28 pb-10 before:absolute before:inset-y-0 before:left-0 before:border-l before:border-gray-300 sm:mt-20 sm:pb-18 lg:space-y-36 lg:before:left-4 lg:before:border-gray-400">
+        <div className="relative mt-10 space-y-20 pb-10 before:absolute before:inset-y-0 before:left-0 before:border-l before:border-gray-300 sm:mt-20 sm:pb-18 lg:before:left-4 lg:before:border-gray-400">
           {children}
         </div>
       </Container>

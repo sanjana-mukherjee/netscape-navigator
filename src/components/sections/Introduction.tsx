@@ -6,7 +6,7 @@ import Container from "../Container";
 export default function Introduction() {
   return (
     <InteractiveBackground>
-      <div className="pt-20 md:mt-20 md:pt-0">
+      <div className="pt-20 md:mt-20 md:pt-0 xl:mt-30">
         <div className="bg-white py-4 md:bg-transparent md:py-0">
           <Container>
             <div className="-mx-3 grid justify-between gap-8 bg-white px-3 sm:gap-10 md:grid-cols-[min-content_--spacing(52)] xl:grid-cols-[min-content_1fr_--spacing(52)] xl:gap-20">

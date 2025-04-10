@@ -1,5 +1,6 @@
 import Container from "./components/Container";
 import Content from "./components/Content";
+import Conclusion from "./components/sections/Conclusion";
 import Introduction from "./components/sections/Introduction";
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
           <div className="mt-18 sm:mt-28 md:mt-48">
             <Content />
           </div>
+            <Conclusion />
         </div>
       </Container>
     </main>

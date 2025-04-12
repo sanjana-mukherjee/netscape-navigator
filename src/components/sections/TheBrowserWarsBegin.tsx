@@ -65,10 +65,9 @@ export default function TheBrowserWarsBegin() {
           <Paragraph>
             On <strong>August 24, 1995</strong>, Microsoft released{" "}
             <strong>Internet Explorer 1.0</strong> as part of{" "}
-            <strong>Windows 95 Plus</strong>. With{" "}
-            <strong>Windows running on over 95% of desktop computers</strong>,
-            bundling Internet Explorer with every copy ensured millions of users
-            had instant access to Microsoft's browser.
+            <strong>Windows 95 Plus</strong>. By bundling it with the operating
+            system, Microsoft instantly put its browser in front of millions of
+            users.
           </Paragraph>
           <Image
             src="./assets/Internet_Explorer_1.png"

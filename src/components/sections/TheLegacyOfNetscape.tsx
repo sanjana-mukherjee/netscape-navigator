@@ -13,7 +13,7 @@ export default function TheLegacyOfNetscape() {
     <Section heading="The Legacy of Netscape">
       <SubSection>
         <SubSectionHeader>
-          <SubSectionHeading>HTTP Cookies</SubSectionHeading>
+          <SubSectionHeading>Remembering You Online</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
               <TimelineItem year={1994}>
@@ -36,7 +36,7 @@ export default function TheLegacyOfNetscape() {
       </SubSection>
       <SubSection>
         <SubSectionHeader>
-          <SubSectionHeading>JavaScript</SubSectionHeading>
+          <SubSectionHeading>The Web Gets Dynamic</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
               <TimelineItem year={1995}>
@@ -58,7 +58,7 @@ export default function TheLegacyOfNetscape() {
       </SubSection>
       <SubSection>
         <SubSectionHeader>
-          <SubSectionHeading>Frameset and Early Web Layouts</SubSectionHeading>
+          <SubSectionHeading>Dividing Pages with Framesets</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
               <TimelineItem year={1996}>
@@ -70,17 +70,16 @@ export default function TheLegacyOfNetscape() {
         <SubSectionContent>
           <Paragraph>
             <strong>Netscape</strong> popularized the use of{" "}
-            <strong>framesets</strong>
-            in web design, allowing developers to divide a webpage into{" "}
-            <strong>multiple scrollable sections</strong>. While framesets have
-            largely been replaced by modern CSS-based layouts, they were a
-            defining feature of early web development.
+            <strong>framesets</strong> in web design, allowing developers to
+            divide a webpage into <strong>multiple scrollable sections</strong>.
+            While framesets have largely been replaced by modern CSS-based
+            layouts, they were a defining feature of early web development.
           </Paragraph>
         </SubSectionContent>
       </SubSection>
       <SubSection>
         <SubSectionHeader>
-          <SubSectionHeading>WHATWG and Web Standards</SubSectionHeading>
+          <SubSectionHeading>Pushing Web Standards Forward</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
               <TimelineItem year={2004}>
@@ -97,16 +96,16 @@ export default function TheLegacyOfNetscape() {
             </strong>{" "}
             is a <strong>community</strong> dedicated to evolving HTML and
             related technologies. Formed in <strong>April 2004</strong> through
-            a collaboration between the <strong>Mozilla Foundation</strong>
-            and <strong>Opera Software</strong>, it aimed to develop
-            open-technology standards that improved functionality while
-            maintaining backward compatibility.
+            a collaboration between the <strong>Mozilla Foundation</strong> and{" "}
+            <strong>Opera Software</strong>, it aimed to develop open-technology
+            standards that improved functionality while maintaining backward
+            compatibility.
           </Paragraph>
         </SubSectionContent>
       </SubSection>
       <SubSection>
         <SubSectionHeader>
-          <SubSectionHeading>MDN Web Docs</SubSectionHeading>
+          <SubSectionHeading>Where the Web Learns</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
               <TimelineItem year={2005}>
@@ -120,17 +119,17 @@ export default function TheLegacyOfNetscape() {
             MDN Web Docs, formerly known as{" "}
             <strong>Mozilla Developer Network</strong> and{" "}
             <strong>Mozilla Developer Center</strong>, is a comprehensive{" "}
-            <strong>documentation repository</strong>
-            and <strong>learning platform</strong> for web developers.
-            Established by <strong>Mozilla</strong> in <strong>2005</strong>, it
-            provides resources on open web standards, including HTML, CSS,
-            JavaScript, and SVG.
+            <strong>documentation repository</strong> and{" "}
+            <strong>learning platform</strong> for web developers. Established
+            by <strong>Mozilla</strong> in <strong>2005</strong>, it provides
+            resources on open web standards, including HTML, CSS, JavaScript,
+            and SVG.
           </Paragraph>
         </SubSectionContent>
       </SubSection>
       <SubSection>
         <SubSectionHeader>
-          <SubSectionHeading>Rust</SubSectionHeading>
+          <SubSectionHeading>The New Language from Mozilla</SubSectionHeading>
           <SubSectionTimelineContainer>
             <Timeline>
               <TimelineItem year={2006}>

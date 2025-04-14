@@ -36,7 +36,7 @@ export default function Introduction() {
                   <div>
                     <div className="text-xs text-gray-500">Last Updated:</div>
                     <div className="font-melodrama text-lg md:text-2xl">
-                      11<sup>th</sup> April{" "}
+                      13<sup>th</sup> April{" "}
                       <span className="text-sm text-gray-500 italic">2025</span>
                     </div>
                   </div>

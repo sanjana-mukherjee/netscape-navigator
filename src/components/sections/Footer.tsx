@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Twitter } from "lucide-react";
+import { Linkedin, Twitter, SquarePlay } from "lucide-react";
 import Container from "../Container";
 import InteractiveBackground from "../InteractiveBackground";
 
@@ -38,12 +38,12 @@ export default function Footer() {
               <Linkedin />
             </a>
             <a
-              href="mailto:dev.sanjanamukherjee@gmail.com"
+              href="https://www.youtube.com/@sanjana-mukherjee"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded border border-sky-100 bg-sky-50 p-1.5 text-black hover:border-sky-200"
             >
-              <Mail />
+              <SquarePlay />
             </a>
           </div>
         </div>

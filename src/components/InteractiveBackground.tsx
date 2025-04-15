@@ -17,8 +17,19 @@ export default function InteractiveBackground({
     }
   };
 
+  const handleMouseLeave = () => {
+    if (overlayRef.current) {
+      overlayRef.current.style.setProperty("--x", "");
+      overlayRef.current.style.setProperty("--y", "");
+    }
+  };
+
   return (
-    <div className="bg-wave relative h-full" onMouseMove={handleMouseMove}>
+    <div
+      className="bg-wave relative h-full"
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+    >
       <div
         ref={overlayRef}
         className="overlay absolute inset-0 bg-white/85"

@@ -41,20 +41,22 @@ function PopupImage({
       aria-labelledby="popup-image-title"
     >
       <InteractiveBackground>
-        <div className="flex h-full items-center justify-center">
+        <div className="flex h-full items-center justify-center p-10">
           <div
-            className="relative flex w-11/12 max-w-4xl flex-col items-center justify-center gap-2 bg-gray-50/80 px-5 py-5 sm:px-10 md:gap-10 md:px-25 lg:px-35"
+            className="relative flex h-full w-11/12 max-w-4xl flex-col justify-center gap-2 border-3 border-gray-100 bg-white/80 px-5 py-5 sm:px-10 md:gap-10 md:px-25"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal
           >
             <button
               ref={closeButtonRef}
-              className="focus-border-gray-300 border-2 border-transparent p-3 text-gray-800 hover:cursor-pointer hover:bg-gray-200 focus:outline-0 md:absolute md:top-0 md:right-0"
+              className="focus-border-gray-300 self-center border-2 border-transparent p-3 text-gray-800 hover:cursor-pointer hover:bg-gray-100 focus:outline-0 md:absolute md:top-0 md:right-0"
               onClick={onClose} // Close modal on X button click
               aria-label="Close"
             >
               <X size={24} strokeWidth={1} absoluteStrokeWidth={true} />
             </button>
-            <img src={src} alt={alt} />
+            <div className="overflow-hidden">
+              <img src={src} alt={alt} className="m-auto max-h-full" />
+            </div>
             <p
               id="popup-image-title"
               className="font-melodrama text-center text-xl font-normal uppercase md:text-3xl"

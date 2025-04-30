@@ -51,7 +51,7 @@ export default function Introduction() {
                   </div>
                 </div>
                 <a
-                  href="#"
+                  href="https://youtu.be/Jc99MGofGe0?si=2lxeDxIHwETbzFa1"
                   className="font-melodrama flex items-center justify-between gap-1 border border-sky-100 bg-sky-50/70 p-2 text-xl leading-6 uppercase sm:text-2xl md:text-3xl"
                 >
                   <div>Watch on Youtube</div>

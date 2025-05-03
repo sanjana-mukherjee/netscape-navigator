@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
           <div className="flex space-x-2">
             <a
-              href="https://x.com/__mukherjee"
+              href="https://x.com/__mkhrj"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded border border-sky-100 bg-sky-50 p-1.5 text-black hover:border-sky-200"

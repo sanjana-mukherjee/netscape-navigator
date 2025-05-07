@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import Container from "./components/Container";
 import Content from "./components/Content";
 import Conclusion from "./components/sections/Conclusion";
@@ -19,6 +20,7 @@ export default function App() {
         </Container>
       </main>
       <Footer />
+      <Analytics />
     </>
   );
 }
